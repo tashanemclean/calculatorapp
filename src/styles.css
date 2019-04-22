@@ -1,0 +1,58 @@
+:root {
+  --main-color: #6d6d6d;
+  --background: #e0e1e6;
+}
+
+.app {
+  font-family: sans-serif;
+  width: 300px;
+  height: 505px;
+  cursor: pointer;
+}
+
+.row {
+  display: flex;
+  width: 100%;
+}
+
+.btn-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75px;
+  width: 75px;
+  font-size: 25px;
+  color: var(--main-color);
+  background-color: var(--background);
+}
+
+.operator {
+  background-color: rgb(47, 54, 17);
+  color: #fff;
+  font-weight: bold;
+}
+
+.input {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 100px;
+  width: 90%;
+  padding: 15px;
+  font-weight: bold;
+  color: #fff;
+  font-size: 40px;
+  background-color: rgb(65, 65, 68);
+  border-radius: 30px 30px 0 0;
+}
+
+.clear-btn {
+  color: var(--main-color);
+  background-color: var(--background);
+  width: 225px;
+  border-radius: 0 0 0 30px;
+}
+
+.equal {
+  border-radius: 0 0 30px 0;
+}
